@@ -5,6 +5,10 @@
   font-family: Lato, sans-serif;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .intro {
   width: 500px;
   margin: 0 auto;
