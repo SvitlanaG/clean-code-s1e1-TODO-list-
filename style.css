@@ -4,22 +4,27 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .intro {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .intro img {
   width: 100%;
 }
+
 .intro .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
+
   .intro { text-align: center;
   }
+  
 }
 
 .main {
