@@ -1,4 +1,4 @@
-/* Basic Style */
+/*** Basic Style ***/
 .body {
   background-color: #f8f8f8;
   color: #333;
@@ -71,7 +71,7 @@ button:hover {
   color: #3a3a3a;
 }
 
-/* Heading */
+/*** Heading ***/
 h3,
 label[for="new-task"] {
   color: #333;
@@ -100,7 +100,7 @@ input[type="text"]:focus {
   color: #333;
 }
 
-/* New Task */
+/*** New Task ***/
 label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
@@ -110,7 +110,7 @@ label[for="new-task"] {
   width: 318px;
 }
 
-/* Task list */
+/*** Task list ***/
 li {
   overflow: hidden;
   padding: 20px 0;
@@ -149,13 +149,13 @@ button.delete img:hover {
   transform: rotateZ(0);
 }
 
-/* Completed */
+/*** Completed ***/
 #completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
 
-/* Edit Task */
+/*** Edit Task ***/
 ul li input[type="text"] {
   display: none;
 }
